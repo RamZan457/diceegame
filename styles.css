@@ -9,6 +9,11 @@
   display: inline-block;
 }
 
+.again {
+  font-size: 12px;
+  display: none;
+}
+
 body {
   background-color: #393e46;
 }

@@ -13,8 +13,11 @@ image2.setAttribute("src", `./images/dice${randomNumber2}.png`);
 // For changing Text to Winner or Draw
 if (randomNumber1 === randomNumber2) {
   document.querySelector("h1").innerHTML = "Draw!";
+  document.querySelector(".again").style.display = "block";
 } else if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "&#128681; Player 1 Wins!";
+  document.querySelector(".again").style.display = "block";
 } else {
   document.querySelector("h1").innerHTML = " &#128681; Player 2 Wins!";
+  document.querySelector(".again").style.display = "block";
 }

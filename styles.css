@@ -9,11 +9,6 @@
   display: inline-block;
 }
 
-.again {
-  font-size: 20px;
-  display: none;
-}
-
 body {
   background-color: #393e46;
 }
@@ -31,7 +26,10 @@ p {
   color: #4ecca3;
   font-family: "Indie Flower", cursive;
 }
-
+.again {
+  font-size: 20px;
+  display: none;
+}
 img {
   width: 80%;
 }
